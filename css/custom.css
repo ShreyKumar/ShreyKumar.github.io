@@ -1,0 +1,84 @@
+div#skills {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#guy {
+}
+ul.work_headers > li {
+    height: 50%;
+}
+ul.work_headers {
+    list-style-type: none;
+    text-align: center;
+}
+ul.work_headers > li {
+    display: block;
+    width: 33%;
+    float: left;
+}
+div#butter2014{
+    margin-top: 4%;
+}
+div.work_details > h4 {
+    margin-top: 2%;
+}
+
+/* Volunteer */
+section#volunteer {
+    height: 450px;
+}
+div.volunteer_header {
+    height: 80px;
+}
+ul.volunteer_headers > li {
+    display: block;
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+div.volunteer_details {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+}
+div.volunteer_headers, div.work_headers {
+    //width: 100%;
+    margin-left: 5.5%;
+    margin-right: 5.5%;
+}
+div.work_headers {
+    width: 100%;
+}
+/*
+@media(max-width:780px){
+    div#pres{
+        margin-top: 30px;
+    }
+}
+*/
+div.volunteer_details > h4 {
+    margin-top: 3%
+}
+div#pres {
+    margin-bottom: 4%;
+}
+
+/* Intro */
+div#intro{
+    color: white;
+}
+
+/* Portfolio*/
+div.portfolio-item{
+    width: 100%;
+    height: 333px;
+    background-color: #337ab7;
+    color: white;
+    opacity: 0.5;
+}
+div.portfolio-item > h4 {
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
