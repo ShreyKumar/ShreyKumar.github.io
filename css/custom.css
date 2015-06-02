@@ -86,12 +86,13 @@ div.portfolio-item > h4 {
 /** Skills item **/
 div.skills-item {
     width: 50%;
-    background-color: cornflowerblue;
+    background-color: white;
+    color: black;
     opacity: 0.8;
     padding-right: 0.5px;
     padding-left: 15px;
     padding-top: 0.1px;
     padding-bottom: 2px;
-    border: cornflowerblue 4px solid;
+    //border: black 4px solid;
     margin-top: 10px
 }
