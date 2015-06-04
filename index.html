@@ -72,7 +72,12 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center" id="intro">
-            <h1>Hey, this is Shrey</h1>
+            <h1>
+                <span id="hey">Hey,</span>
+                <span id="this">this </span>
+                <span id="is">is </span>
+                <span id="shrey">Shrey</span>
+            </h1>
             <h3>Developer, Programmer, Computer enthusiast</h3>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">Check me out!</a>
@@ -99,19 +104,18 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Technologies used</h2>
+                    <h2>Why me?</h2>
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-android fa-stack-1x text-primary"></i>
+                                <i class="fa fa-code fa-stack-1x text-primary"></i>
                             </span>
-                                <h4>
-                                    <strong>Eclipse IDE</strong>
-                                </h4>
-                                <p>XML, Java</p>
+                                <h2>
+                                    1000+ lines of <br>code
+                                </h2>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -120,22 +124,20 @@
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-desktop fa-stack-1x text-primary"></i>
                             </span>
-                                <h4>
-                                    <strong>Brackets</strong>
-                                </h4>
-                                <p>HTML/CSS, JavaScript, jQuery, PHP, MySQL</p>
+                                <h2>
+                                    50+ hours of <br>testing
+                                </h2>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-leaf fa-stack-1x text-primary"></i>
+                                <i class="fa fa-server fa-stack-1x text-primary"></i>
                             </span>
-                                <h4>
-                                    <strong>Wing IDE</strong>
-                                </h4>
-                                <p>Python</p>
+                                <h2>
+                                    150+ Github <br>commits
+                                </h2>
                             </div>
                         </div>
                         
@@ -143,12 +145,11 @@
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                                <i class="fa fa-user fa-stack-1x text-primary"></i>
                             </span>
-                                <h4>
-                                    <strong>Subversion</strong>
-                                </h4>
-                                <p>Version Control</p>
+                                <h2>
+                                    2+ years of <br>experience
+                                </h2>
                                 <!--
                                 <p>C/C++</p>
                                 <a href="#" class="btn btn-light">Coming soon!</a>
@@ -422,36 +423,7 @@
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    </script>
+    <script src="js/custom.js"></script>
 
 </body>
 
