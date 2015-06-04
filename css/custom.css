@@ -84,10 +84,10 @@ div.portfolio-item > h4 {
 }
 
 /** Skills item **/
-div.skills-item {
+div.skills-item.panel {
     width: 50%;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     opacity: 0.8;
     padding-right: 0.5px;
     padding-left: 15px;
@@ -95,4 +95,8 @@ div.skills-item {
     padding-bottom: 2px;
     //border: black 4px solid;
     margin-top: 10px
+}
+div.fa.fa-star, div.fa.fa-star-o, div.fa.fa-coffee {
+    color: gold;
+    outline-color: black;
 }
