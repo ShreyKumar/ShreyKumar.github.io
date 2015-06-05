@@ -42,7 +42,13 @@ $(document).ready(function(){
     
     $("#buttons").hide(0).delay(3000).show();
     */
-        
+    $(window).on('resize', function(){
+            if($(window).width() <= 991){
+                $("#right").removeClass('right');
+            } else {
+                $("#right").addClass('right');
+            }
+        });
     }); 
     
 });
