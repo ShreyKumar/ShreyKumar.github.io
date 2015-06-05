@@ -30,10 +30,18 @@ $(document).ready(function(){
 
         });
     
-    $("#hey").hide(0).css("margin-left", "35%").delay(500).fadeIn(2000);
-    $("#this").hide(0).delay(700).fadeIn(4000);
-    $("#is").hide(0)//.delay(1000).fadeIn(6000);
-    $("#shrey").hide(0)//.delay(1600).fadeIn(8000);
+        /*
+    $("#hey").hide(0).delay(500).fadeIn(2000);
+    $("#this").hide(0).delay(700).fadeIn(2000);
+    $("#is").hide(0).delay(1000).fadeIn(2000);
+    $("#shrey").hide(0).delay(1600).fadeIn(2000);
+    
+    $("#developer").hide(0).delay(1800).fadeIn(2000);
+    $("#programmer").hide(0).delay(2200).fadeIn(2000);
+    $("#enthusiast").hide(0).delay(2400).fadeIn(2000);
+    
+    $("#buttons").hide(0).delay(3000).show();
+    */
         
     }); 
     
