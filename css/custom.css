@@ -90,6 +90,11 @@ div.skills-item {
     opacity: 0.8;
     padding-left: 15px;
 }
+div#identity {
+    background-image: url(img/identity.png);
+    
+}
+
 div.skills-item.right {
     margin-left: 1.5%;
     width: 48%;

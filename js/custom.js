@@ -51,4 +51,9 @@ $(document).ready(function(){
         });
     }); 
     
+    
+    //sync connections
+    $("div.portfolio-item#identity").scroll(function(){
+      alert('hello');  
+    });
 });
