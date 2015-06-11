@@ -89,6 +89,7 @@ div.skills-item {
     color: white;
     opacity: 0.8;
     padding-left: 15px;
+    padding-bottom: 5px;
 }
 div#identity {
     background-image: url(img/identity.png);
