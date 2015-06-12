@@ -56,4 +56,15 @@ $(document).ready(function(){
     $("div.portfolio-item#identity").scroll(function(){
       alert('hello');  
     });
+    
+    //portfolio magic
+    /*
+    $("div.info").hide();
+    $("div#identity").mouseenter(function(){
+        $("div.info").show();
+    });
+    $("div#identity").mouseleave(function(){
+        $("div.info").hide();  
+    });
+    */
 });
