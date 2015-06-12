@@ -96,9 +96,33 @@ div#identity {
     background-size: 100% 100%;
     height: 60%;
     margin-left: 7.5%;
-    margin-top: -78.2%;
+    margin-top: -78%;
     width: 79%;
     position: absolute;
+}
+@media (max-width: 980px) {
+    div#identity {
+        margin-left: 7.7%;
+        width: 80.5%;
+        margin-top: -79.3%;
+    }
+}
+
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
+    div#identity {
+        margin-left: 7.5%;
+        margin-top: -78.3%;
+    }
+}
+
+@media(max-width: 991px){
+    div#identity {
+        margin-left: 7.7%;
+        width: 80.3%;
+        margin-top: -80.9%;
+    }
 }
 div.portfolio-item > h4 {
     text-align: left;
@@ -113,7 +137,6 @@ ul.abilities > li {
     width: 100px;
     float: left;
     border: black 2px;
-    //margin: 2px;
     background-color: lightgray;
 }
 a.view-btns {
@@ -132,6 +155,12 @@ div.skills-item {
 div.skills-item.right {
     margin-left: 1.5%;
     width: 48%;
+}
+@media(max-width: 991px){
+    /* Skills fix */
+    div.skills-item.right {
+        width: 100%;
+    }
 }
 div.fa.fa-star, div.fa.fa-star-o, div.fa.fa-coffee {
     color: gold;
